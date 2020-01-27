@@ -1,0 +1,30 @@
+{
+  "name": "testcafeframework",
+  "version": "1.0.0",
+  "description": "Testing with testCafe",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests -L",
+    "test:chrome:live": "testcafe chrome ./tests -L",
+    "test:chrome:headless": "testcafe chrome:headless ./tests",
+    "test:chrome:mobile": "testcafe chrome:emulation:device=Honor X ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rszatkowski/testCafeFramework.git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rszatkowski/testCafeFramework.git/issues"
+  },
+  "homepage": "https://github.com/rszatkowski/testCafeFramework.git#readme",
+  
+  "devDependencies": {
+    "testcafe": "^1.8.1"
+  },
+  
+  "dependencies": {
+    "prettier": "^1.19.1"
+  }
+}
